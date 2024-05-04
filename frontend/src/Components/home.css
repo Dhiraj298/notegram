@@ -1,0 +1,48 @@
+.Home {
+
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #666;
+     */
+    display: flex;
+    /* flex-direction: row-reverse; */
+    background: rgb(56, 32, 32);
+    background: linear-gradient(90deg, rgba(56, 32, 32, 1) 0%, rgba(97, 97, 97, 1) 48%, rgba(142, 172, 179, 1) 100%);
+
+}
+
+.image {
+    margin-top: 20px;
+    height: 90%;
+    margin-right: 10%;
+    transform: rotate(13deg);
+    /* align-self: flex-end; */
+}
+
+.Text {
+    /* width: 400px;
+  
+     */
+
+    margin: 40px 50px;
+
+}
+
+.Text h1 {
+    font-size: 4rem;
+    color: whitesmoke;
+    font-weight: 400;
+    margin: 20px;
+    padding: 10px;
+}
+
+.Text h5 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 200;
+
+    margin: 40px 20px;
+    padding: 20px;
+
+
+}
